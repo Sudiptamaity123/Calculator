@@ -19,7 +19,7 @@ void main(void){
         printf("%d * %d = %d\n\n\n",num1,num2,num1*num2);
         break;
         case '/':
-        printf("%d / %d = %d\n\n\n",num1,num2,num1/num2);
+        printf("%d / %d = %f\n\n\n",num1,num2,(float)num1/num2);
         break;
         case '%':
         printf("%d '%' %d = %d\n\n\n",num1,num2,num1%num2);
